@@ -1,0 +1,51 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/libraries/
+* .idea/libraries/logback_classic_0_9_26.xml
+* CameraStreaming.iml
+* README.md
+* ant.properties
+* build.xml
+* doc/
+* doc/rtmp_specification_1.0.pdf
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/commons-lang-2.6.jar => app/libs/commons-lang-2.6.jar
+* libs/logback-classic-1.1.3.jar => app/libs/logback-classic-1.1.3.jar
+* libs/logback-core-1.1.3.jar => app/libs/logback-core-1.1.3.jar
+* libs/mina-core-2.0.2.jar => app/libs/mina-core-2.0.2.jar
+* libs/org.springframework.core-3.0.5.RELEASE.jar => app/libs/org.springframework.core-3.0.5.RELEASE.jar
+* libs/slf4j-api-1.6.1.jar => app/libs/slf4j-api-1.6.1.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/org/red5/io/flv/FLVMetaData.xsd => app/src/main/resources/org/red5/io/flv/FLVMetaData.xsd
+* src/org/red5/io/flv/FLVMetaData_Template.xml => app/src/main/resources/org/red5/io/flv/FLVMetaData_Template.xml
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
